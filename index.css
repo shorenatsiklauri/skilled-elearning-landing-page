@@ -1,0 +1,370 @@
+
+  * {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+  width: 100vw;
+  min-height:100vh;
+  display: flex;
+  flex-direction: column;
+  background: #F2F2F2;
+  font-family:'Plus Jakarta Sans';
+  overflow-x: hidden;
+  background-image: none;
+    }
+
+header { 
+  padding: 16px;  
+  display: flex;
+  justify-content: space-between;
+  background: #F2F2F2;
+
+}
+.textskilled {
+font-weight: 800;
+font-size: 28px;
+line-height: 35px;
+color: #13183F;
+
+}
+button {
+height: 48px;
+width: 140px;
+border-radius: 28px;
+background: #13183F;
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #FFFFFF;
+
+}
+
+.budget {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.headertext1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  color: #13183F;
+  margin-top: 30px;
+  
+}
+.budget button {
+height: 56px;
+width: 167px;
+left: 16px;
+margin-top: 30px;
+background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+border-radius: 31.5px;
+left: 22.75%;
+right: 22.16%;
+font-family: 'Plus Jakarta Sans';
+font-size: 16px;
+color: #FFFFFF;
+  
+   }
+
+   .mob-picturebox {
+height: 375px;
+width: 375px;
+left: 0px;
+
+   }
+   .mob-picture1 {
+width: 450px;
+size: 100%;
+   }
+
+   .tablet-picture {
+    display: none;
+   }
+
+
+.headertext2 {
+width: 343px;
+height: 78px;
+left: 16px;
+top: 229px;
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+color: #83869A;
+
+}
+
+.box-space {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+
+.boxheader1 {
+
+padding: 0 28px 32px 28px; 
+height: 120px;
+background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+border-radius: 10px;
+margin-bottom: 20px;
+
+}
+
+.boxheadertext { 
+  color: #FFFFFF;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  left: 8.16%;
+  height: 64px;
+left: 8.16%;
+right: 8.45%;
+margin-top: 50px;
+
+
+  
+  }
+.box {
+  background-color: #FFFFFF;
+  padding: 0 28px 32px 28px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  z-index: 99;
+}
+  
+svg {
+  margin-top: -20px;
+}
+.boxtext { 
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.boxtext h1 { 
+  height: 35px;
+  left: 8.16%;
+  right: 62.39%;
+  top: calc(50% - 35px/2 - 44px);
+    font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183F;
+}
+.boxtext p {
+
+height: 78px;
+left: 8.16%;
+right: 8.45%;
+top: calc(50% - 78px/2 + 18.5px);
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 26px;
+color: #83869A;
+
+}
+.box button {
+
+  height: 28px;
+  left: 8.16%;
+  right: 61.52%;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  background: white;  
+  color: #F74780;
+     
+}
+  main {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+
+  }
+  footer{
+
+  padding: 16px;  
+  display: flex;
+  justify-content: space-between;
+  background: #F2F2F2;
+  background:#13183F;
+  border-radius: 0px;
+  }
+  footer button {
+height: 48px;
+width: 140px;
+left: 0px;
+top: 0px;
+border-radius: 28px; 
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+border-radius: 28px;
+
+  }
+  footer h2 {
+    height: 48px;
+width: 140px;
+left: 0px;
+top: 0px;
+border-radius: 28px;
+height: 35px;
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 35px;
+color: #FFFFFF;
+  }
+
+    @media screen and (min-width: 768px) {
+
+      body{
+        margin: 40px;
+        margin-left: 40px;
+        background-image: url("./starter-code/assets/image-hero-tablet.png");
+        background-repeat: no-repeat;
+        background-position: top 20px right -230px;
+        background-size: 70%;
+
+      
+       }
+ 
+       header { 
+        margin-right: 100px;
+        padding: 0px 0px 0px 16px ;
+        display: flex;
+        justify-content: space-between;
+        background: #F2F2F2;
+      }   
+
+
+       .text-cont {
+        
+height: 284px;
+width: 398px;
+left: 39px;
+top: 171px;
+border-radius: 0px;
+
+       }
+
+      .budget {
+        width: 100%;
+        flex-direction: row;
+        justify-content: unset;
+        margin-top: 70px;
+             
+      }
+      .text-cont {
+        flex-basis: 50%;
+      }
+      .mob-picture1 {
+        display: none;
+      }
+    
+    .box-space {
+      margin-top: 100px;
+      gap: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+    .boxheader1 {
+
+      width: 339px;
+      height: 259px;
+      left: 39px;
+      top: 165px;
+      border-radius: 10px;
+
+    }
+
+    .box {
+   
+height: 259px;
+width: 340px;
+left: 0px;
+top: 24px;
+border-radius: 10px;
+
+    }
+      
+svg {
+  margin-top: -30px;
+      
+  }
+
+
+
+footer{
+  margin-right: 70px;
+  display: flex;
+  justify-content: space-between;
+  background: #F2F2F2;
+  background:#13183F;
+  border-radius: 0px;
+  }
+}
+
+  @media screen and (min-width: 992px) {
+    .box-space {
+      margin-top: 200px;
+      gap: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+    
+    }
+    .mob-picture1 {
+      display: none;
+    }
+   
+      body {
+      margin:50px;
+      margin-left: 100px;
+      background-image: url("./starter-code/assets/image-hero-tablet.png");
+      background-repeat: no-repeat;
+      background-position: top -85px right -150px;
+      background-size: 60%;
+      }
+
+      header { 
+        margin-right: 400px;
+        padding: 0px 0px 0px 16px ;
+        display: flex;
+        justify-content: space-between;
+        background: #F2F2F2;
+      }   
+      
+      footer{
+        margin-right: 180px;
+        padding: 16px;  
+        display: flex;
+        justify-content: space-between;
+        background: #F2F2F2;
+        background:#13183F;
+        border-radius: 0px;
+        }
+    }
+
