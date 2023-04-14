@@ -8,7 +8,7 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
 
 ### Links
 
-- Live Site URL: (http://127.0.0.1:5500/)
+- Live Site URL: ([https://shorenatsiklauri.github.io/skilled-elearning-landing-page/])
 
 ## My process
 
